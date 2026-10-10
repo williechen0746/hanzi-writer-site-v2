@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="115" fill="#c8442f"/>
+  <g stroke="#fffdfc" stroke-opacity="0.28" stroke-width="3">
+    <line x1="256" y1="72" x2="256" y2="440"/>
+    <line x1="72" y1="256" x2="440" y2="256"/>
+    <line x1="126" y1="126" x2="386" y2="386"/>
+    <line x1="386" y1="126" x2="126" y2="386"/>
+  </g>
+  <!-- x/y 已按墨迹中心补偿：「字」的墨迹在 em 框中偏右下，直接居中会显得偏斜 -->
+  <text x="244" y="223" font-family="STKaiti" font-size="392" fill="#fffdfc"
+        text-anchor="middle" dominant-baseline="central">字</text>
+</svg>

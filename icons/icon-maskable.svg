@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#c8442f"/>
+  <!-- 米字格铺满整幅：自适应图标会被裁成圆形/方形，满幅线条被裁后仍然自然 -->
+  <g stroke="#fffdfc" stroke-opacity="0.26" stroke-width="3">
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="0" x2="512" y2="512"/>
+    <line x1="512" y1="0" x2="0" y2="512"/>
+  </g>
+  <!-- 字形控制在 80% 安全圆内：字号 310 → 墨迹约 250×280，半对角线约 188 < 安全半径 204.8
+       x/y 已按墨迹中心补偿：「字」的墨迹在 em 框中偏右下 -->
+  <text x="246" y="230" font-family="STKaiti" font-size="310" fill="#fffdfc"
+        text-anchor="middle" dominant-baseline="central">字</text>
+</svg>

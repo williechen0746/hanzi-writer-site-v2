@@ -1,0 +1,32 @@
+# License
+
+This project uses Chinese character stroke data from [hanzi-writer-data](https://github.com/chanind/hanzi-writer-data), which is derived from the [Make Me A Hanzi](https://github.com/skishore/makemeahanzi) project.
+
+The stroke data is licensed under the **Arphic Public License**:
+
+- [hanzi-writer-data/ARPHICPL.TXT](hanzi-writer-data/ARPHICPL.TXT) (English)
+- [hanzi-writer-data/ARPHICPL.TXT](hanzi-writer-data/ARPHICPL.TXT) (Chinese Simplified)
+
+---
+
+## Arphic Public License Summary
+
+Copyright (C) 1999 Arphic Technology Co., Ltd.
+
+You may freely copy, distribute, and modify this font data provided that:
+
+1. The license file (ARPHICPL.TXT) is retained unaltered
+2. Modified versions are made freely available under the same license
+3. Attribution to Arphic Technology Co., Ltd. is preserved
+
+For the full license terms, see [hanzi-writer-data/ARPHICPL.TXT](hanzi-writer-data/ARPHICPL.TXT).
+
+---
+
+## Third-Party Licenses
+
+### HanziWriter (CDN)
+The stroke animation library is loaded from jsdelivr CDN. See [hanzi-writer on GitHub](https://github.com/chanind/hanzi-writer) for its license.
+
+### Google Fonts - Noto Serif SC
+Used for fallback character display. Licensed under [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
